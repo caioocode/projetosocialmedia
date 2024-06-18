@@ -35,3 +35,13 @@ section#cel {
     background: url('../imagens/iphone15-2.png');
     background-repeat: no-repeat;
 }
+
+iframe#tela {
+    position: relative;
+    top: 64px;
+    left: 187px;
+    height: 520px;
+    width: 247px;
+    transform: perspective(1000px) rotateZ(354deg) rotateY(26deg) rotateX(3deg) rotate3d(1, 1, 1, 4deg);
+    border-radius: 20px;
+}
