@@ -39,9 +39,9 @@ section#cel {
 iframe#tela {
     position: relative;
     top: 64px;
-    left: 187px;
+    left: 188px;
     height: 520px;
-    width: 247px;
-    transform: perspective(1000px) rotateZ(354deg) rotateY(26deg) rotateX(3deg) rotate3d(1, 1, 1, 4deg);
-    border-radius: 20px;
+    width: 250px;
+    transform: perspective(1000px) rotateZ(357deg) rotateY(33deg) rotateX(3deg) rotate3d(8, -5, 1, 6deg);
+    border-radius: 25px;
 }
