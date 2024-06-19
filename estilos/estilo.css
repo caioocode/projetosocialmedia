@@ -11,6 +11,11 @@ html, body {
     background-color: rgb(0, 0, 0);
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 body {
     background: url('../imagens/fundo-preto.jpg') no-repeat top center;
     background-size: cover;
@@ -45,3 +50,24 @@ iframe#tela {
     transform: perspective(1000px) rotateZ(357deg) rotateY(33deg) rotateX(3deg) rotate3d(8, -5, 1, 6deg);
     border-radius: 25px;
 }
+
+section#redesocial {
+    text-align: right;
+}
+
+section#redesocial img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+    box-sizing: border-box;
+}
+
+section#redesocial img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.26);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.438);
+    transition: transform 0.5s, box-shadow 0.7s;
+}
+
