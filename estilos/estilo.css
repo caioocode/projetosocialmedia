@@ -73,3 +73,30 @@ section#redesocial img:hover {
     transition: transform 0.5s, box-shadow 0.7s;
 }
 
+/* Responsividade */
+@media (max-width: 770px) {
+    section#redesocial {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 10; /* Certifique-se de que está acima do elemento #cel */
+    }
+
+    section#cel {
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        min-width: 343px; /* Ajustar largura para caber na tela menor */
+        height: 650px; /* Ajuste a altura conforme necessário */
+    }
+
+    iframe#tela {
+        position: absolute;
+        width: 83%;
+        height: 617px; /* Ajuste a altura conforme necessário */
+    }
+}
